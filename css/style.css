@@ -513,3 +513,23 @@ a {
 }
 
 /* footer */
+
+
+
+
+
+
+
+/* discoverPart  Start*/
+
+#discoverPart {
+    width: 100%;
+}
+
+#discoverPart .discoverContainer {
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+
+/* discoverPart  End*/
