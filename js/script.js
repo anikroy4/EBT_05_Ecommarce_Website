@@ -27,3 +27,37 @@ function dateAndTime() {
  
 // Run on page load
 document.addEventListener('DOMContentLoaded', dateAndTime);
+
+
+/* DOM Content Loaded Listener Start */
+document.addEventListener("DOMContentLoaded", function() {
+    
+    /* Contact Form Selection Start */
+    const contactForm = document.getElementById("mainContactForm");
+    /* Contact Form Selection End */
+
+    /* Form Submit Event Listener Start */
+    if (contactForm) {
+        contactForm.addEventListener("submit", function(event) {
+            
+            /* Prevent Default Page Reload Start */
+            event.preventDefault();
+            /* Prevent Default Page Reload End */
+            
+            /* Get Name Input Value Start */
+            const nameInput = contactForm.querySelector('input[type="text"]').value;
+            /* Get Name Input Value End */
+            
+            /* Show Success Alert Start */
+            alert("Thank you, " + nameInput + ". Your message has been sent successfully!");
+            /* Show Success Alert End */
+            
+            /* Reset Form Start */
+            contactForm.reset();
+            /* Reset Form End */
+        });
+    }
+    /* Form Submit Event Listener End */
+
+});
+/* DOM Content Loaded Listener End */

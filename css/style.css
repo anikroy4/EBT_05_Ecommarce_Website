@@ -568,3 +568,108 @@ a {
 
 
 /* discoverPart  End*/
+
+
+
+/* Contact us Part Start */
+/* Page Title Banner Start */
+.page-title-section {
+    background-color: #F6F4F1;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.page-title {
+    font-size: 56px;
+    line-height: 1.2;
+}
+
+.breadcrumb-text {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+/* Page Title Banner End */
+
+/* Button Styling Start */
+.btn-custom {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 999px;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all 0.45s ease;
+}
+
+.btn-custom:hover {
+    background-color: #C8102E;
+    color: #ffffff;
+}
+/* Button Styling End */
+
+/* Social Icons Start */
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    transition: all 0.3s ease;
+}
+
+.social-icon svg {
+    fill: currentColor;
+    width: 16px;
+    height: 16px;
+}
+
+.social-icon:hover {
+    background-color: #C8102E;
+    color: #ffffff;
+}
+/* Social Icons End */
+
+/* Contact Form Inputs Start */
+.custom-input {
+    background-color: #F5F5F5;
+    color: #000000;
+    border: none;
+    border-radius: 999px;
+    padding: 11px 24px;
+    height: 56px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.custom-textarea {
+    background-color: #F5F5F5;
+    color: #000000;
+    border: none;
+    border-radius: 32px;
+    padding: 24px;
+    font-size: 18px;
+    min-height: 200px;
+    transition: all 0.3s ease;
+}
+
+.custom-input:focus,
+.custom-textarea:focus {
+    background-color: #F5F5F5;
+    border: 1px solid #000000;
+    box-shadow: none;
+}
+/* Contact Form Inputs End */
+
+/* Form Placeholder Override Start */
+::placeholder {
+    color: #696a6d !important;
+    opacity: 1;
+}
+/* Form Placeholder Override End */
+/* Contact us Part End */
